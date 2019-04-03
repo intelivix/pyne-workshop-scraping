@@ -1,0 +1,6 @@
+version: "3"
+services:
+  workshop:
+    container_name: "workshop_pyne"
+    restart: on-failure
+    build: .
